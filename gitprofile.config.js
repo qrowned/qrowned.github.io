@@ -29,8 +29,7 @@ const config = {
     email: 'admin@qrowned.dev',
   },
   resume: {
-    fileUrl:
-      'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf', // Empty fileUrl will hide the `Download Resume` button.
+    fileUrl: 'mailto:admin@qrowned.dev', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
     'Java',
@@ -181,11 +180,7 @@ const config = {
   },
 
   // Optional Footer. Supports plain text or HTML.
-  footer: `Made with <a 
-      class="text-primary" href="https://github.com/arifszn/gitprofile"
-      target="_blank"
-      rel="noreferrer"
-    >GitProfile</a> and ❤️`,
+  footer: `Made with ❤️`,
 };
 
 export default config;
